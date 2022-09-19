@@ -1,7 +1,11 @@
-# SAAT
-The San Andreas Audio Toolkit (SAAT) is a set of commandine tools useful for modding the PC version of the video game Grand Theft Auto: San Andreas.
 
-SAAT allows the importing of music files into SA audio
+                      The San Andreas Audio Toolkit (SAAT)
+
+Current Version: 1.10
+
+   The San Andreas Audio Toolkit (SAAT) is a set of commandine tools
+   useful for modding the PC version of the video game Grand Theft Auto:
+   San Andreas. SAAT allows the importing of music files into SA audio
    streams and the importing of WAVe files into SA sfx archives. It will
    also necessarily allow exporting from each type of archive into
    individual files.
@@ -11,8 +15,30 @@ SAAT allows the importing of music files into SA audio
    It was based on the open-source program [2]Radio Free San Andreas and
    uses several open-source libraries: [3]libogg and libvorbis for Ogg
    Vorbis processing and [4]libsndfile for other sound processing.
- 
-# Documentation
+
+Resources
+
+  Download Locations for Version 1.10
+
+   SAAT is distributed in two primary locations.
+     * From the official website:
+       [5]http://pdescobar.home.comcast.net/gta/saat/SAAT_release_1_10.zip
+     * From GTA Garage: [6]http://www.gtagarage.com/mods/show.php?id=1186
+
+  Official Website
+
+   The official SAAT website is
+   [7]http://pdescobar.home.comcast.net/gta/saat/. It contains the most
+   recent version of this README file, other documentation, and the
+   distribution downloads.
+
+  Feedback
+
+   The main place for discussion and feedback on SAAT is its GTA Forums
+   thread: [8]http://www.gtaforums.com/index.php?showtopic=225049. You may
+   also contact the author directly via email at <pdescobar@comcast.net>.
+
+Documentation
 
    Here's a very brief overview of SAAT. For more detailed documentation
    with some usage examples, see [9]MANUAL.txt; for a list of changes in
@@ -24,7 +50,7 @@ SAAT allows the importing of music files into SA audio
        such as the GTASA main directory.
     2. Open a command prompt window and change to the install directory.
 
-  # Usage (stream tool):
+  Usage (stream tool):
 
 saat_stream.exe -e <stream_file(s)> <target_dir>
   Simple export mode; exports all tracks from <stream_file(s)>, storing the Ogg
@@ -39,7 +65,7 @@ saat_stream.exe -i <target_stream> <import_ini> <lookup_file>
   Import mode; creates <target_stream> based on the information and filename
   references in <import_ini>. Also updates <lookup_file> to reflect the changes
 
-  # Usage (sfx tool):
+  Usage (sfx tool):
 
 saat_sfx.exe -e <archive_file(s)> <target_dir> <lookup_file>
   Export mode; exports all sounds from <archive_file(s)>, storing the WAVe
@@ -50,7 +76,7 @@ saat_sfx.exe -i <target_archive> <import_ini> <lookup_file>
   Import mode; creates <target_archive> based on the information and filename
   references in <import_ini>. Also updates <lookup_file> to reflect the changes
 
-# Acknowledgements
+Acknowledgements
 
    The following people and projects have made major contributions to
    SAAT, whether they know it or not:
@@ -68,7 +94,7 @@ saat_sfx.exe -i <target_archive> <import_ini> <lookup_file>
        distribution. Both that code and the library itself are written by
        Eric de Castro Lopo.
      * Since SAAT must both decode and encode streams, it builds on the
-       work of Simon ElÃ©n who, according to RFSA documentation, was the
+       work of Simon Elén who, according to RFSA documentation, was the
        first to break Rockstar's stream encoding.
      * SAAT has modified and supplemented the stream metadata supplied
        with RFSA; much of this metadata originated with [15]San Andreas
@@ -76,7 +102,7 @@ saat_sfx.exe -i <target_archive> <import_ini> <lookup_file>
      * SAAT's sfx processing was aided by the posting of the sfx bank
        header format to [16]GTA Forums by [17]Steve M.
 
-# Licensing
+Licensing
 
    (Please see [18]COPYING.txt for full details.)
 
@@ -95,7 +121,7 @@ saat_sfx.exe -i <target_archive> <import_ini> <lookup_file>
    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301
    USA
 
-# References
+References
 
    1. http://www.gnu.org/licenses/licenses.html#GPL
    2. http://www.lysator.liu.se/~creideiki/radio-free-san-andreas/
