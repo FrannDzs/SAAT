@@ -16,7 +16,7 @@ For discussions and feedback related to SAAT, visit its dedicated thread on the 
 
 ## Documentation
 
-Here's a concise overview of SAAT. For more comprehensive documentation and usage examples, refer to [manual.txt](./manual.txt). To explore the changes in this version, see [changes.txt](./changes.txt).
+Here's a concise overview of SAAT. For more comprehensive documentation and usage examples, refer to [MANUAL.txt](./MANUAL.txt). To explore the changes in this version, see [CHANGES.txt](./CHANGES.txt).
 
 ## Installation (Windows Binaries)
 
